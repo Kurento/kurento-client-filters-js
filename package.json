@@ -1,0 +1,15 @@
+{
+  "name": "kws-media-api-filters",
+  "version": "5.0.0",
+  "description": "Filter implementations for kurento media server",
+  "main": "lib/index.js",
+  "author": "",
+  "license": "LGPL",
+  "dependencies": {
+    "inherits": "^2.0.1",
+    "kws-media-api-core":"5.0.0"
+  },
+  "peerDependencies": {
+    "kws-media-api": "^5.0.0-dev"
+  }
+}
