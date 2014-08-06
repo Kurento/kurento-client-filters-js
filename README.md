@@ -2,7 +2,7 @@
 
 Copyright © 2013-2014 Kurento. Licensed under [LGPL License].
 
-kws-media-api-filters
+kurento-client-filters
 ============
 Filter implementations for kurento media server
 
@@ -43,7 +43,7 @@ Follow us on Twitter @[kurentoms].
 
 [KurentoImage]: https://avatars1.githubusercontent.com/u/5392839?s=120
 [LGPL License]: http://www.gnu.org/licenses/lgpl-2.1.html
-[GitHub Repository]: https://github.com/kurento/kws-media-api-filters
+[GitHub Repository]: https://github.com/kurento/kurento-client-filters
 [GitHub Kurento Group]: https://github.com/kurento
 [website]: http://kurento.org
 [kurentoms]: http://twitter.com/kurentoms

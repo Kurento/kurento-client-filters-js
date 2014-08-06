@@ -1,7 +1,7 @@
 {
-  "name": "kws-media-api-filters",
+  "name": "kurento-client-filters",
   "description": "Filter implementations for kurento media server",
-  "main": "dist/kws-media-api-filters.js",
+  "main": "dist/kurento-client-filters.js",
   "license": "LGPL",
   "ignore": [
     "doc/",
@@ -22,6 +22,6 @@
   "homepage": "http://www.kurento.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Kurento/kws-media-api-filters.git"
+    "url": "https://github.com/Kurento/kurento-client-filters.git"
   }
 }

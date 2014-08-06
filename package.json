@@ -1,5 +1,5 @@
 {
-  "name": "kws-media-api-filters",
+  "name": "kurento-client-filters",
   "version": "5.0.0",
   "description": "Filter implementations for kurento media server",
   "homepage": "http://www.kurento.com",
@@ -8,10 +8,10 @@
   "license": "LGPL",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Kurento/kws-media-api-filters.git"
+    "url": "https://github.com/Kurento/kurento-client-filters.git"
   },
   "bugs": {
-    "url": "https://github.com/Kurento/kws-media-api-filters/issues",
+    "url": "https://github.com/Kurento/kurento-client-filters/issues",
     "email": "info@kurento.com"
   },
   "keywords": [
@@ -24,7 +24,7 @@
   ],
   "dependencies": {
     "inherits": "^2.0.1",
-    "kws-media-api-core":"5.0.0"
+    "kurento-client-core":"5.0.0"
   },
   "peerDependencies": {
     "kws-media-api": "^5.0.0-dev"
