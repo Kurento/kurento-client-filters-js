@@ -27,6 +27,6 @@
     "kurento-client-core":"5.0.0"
   },
   "peerDependencies": {
-    "kws-media-api": "^5.0.0-dev"
+    "kurento-client": "^5.0.0-dev"
   }
 }
