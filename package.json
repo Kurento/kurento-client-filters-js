@@ -8,10 +8,10 @@
   "license": "LGPL",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Kurento/kurento-client-filters.git"
+    "url": "Kurento/kurento-client-filters-js"
   },
   "bugs": {
-    "url": "https://github.com/Kurento/kurento-client-filters/issues",
+    "url": "Kurento/kurento-client-filters-js/issues",
     "email": "info@kurento.com"
   },
   "keywords": [
@@ -24,9 +24,5 @@
   ],
   "dependencies": {
     "inherits": "^2.0.1",
-    "kurento-client-core":"5.0.0"
-  },
-  "peerDependencies": {
-    "kurento-client": "^5.0.0-dev"
-  }
-}
+    "kurento-client-core": "^5.0.0"
+  }}
