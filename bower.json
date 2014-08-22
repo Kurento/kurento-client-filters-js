@@ -1,15 +1,15 @@
 {
-  "name": "kurento-client-filters",
-  "description": "Filter implementations for kurento media server",
+  "name": "kurento-module-filters",
+  "description": "",
   "homepage": "http://www.kurento.com",
-  "main": "dist/kurento-client-filters.js",
+  "main": "dist/kurento-module-filters.js",
   "authors": [
     "Kurento <info@kurento.com> (http://kurento.org)"
   ],
   "license": "LGPL",
   "repository": {
     "type": "git",
-    "url": "Kurento/kurento-client-filters-js"
+    "url": "Kurento/kurento-module-filters-js"
   },
   "keywords": [
     "API",
