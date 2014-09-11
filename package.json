@@ -1,6 +1,6 @@
 {
   "name": "kurento-client-filters",
-  "version": "5.0.0",
+  "version": "Kurento/kurento-client-filters-js#develop",
   "description": "Filter implementations for kurento media server",
   "homepage": "http://www.kurento.com",
   "main": "lib/index.js",
