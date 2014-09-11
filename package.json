@@ -24,6 +24,6 @@
   ],
   "dependencies": {
     "inherits": "^2.0.1",
-    "kurento-client-core": "5.0.0",
-    "kurento-client-elements": "5.0.0"
+    "kurento-client-core": "Kurento/kurento-client-core-js#develop",
+    "kurento-client-elements": "Kurento/kurento-client-elements-js#develop"
   }}
