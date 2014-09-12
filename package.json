@@ -1,6 +1,6 @@
 {
   "name": "kurento-client-filters",
-  "version": "Kurento/kurento-client-filters-js#develop",
+  "version": "5.0.0-dev",
   "description": "Filter implementations for kurento media server",
   "homepage": "http://www.kurento.com",
   "main": "lib/index.js",
@@ -11,8 +11,7 @@
     "url": "Kurento/kurento-client-filters-js"
   },
   "bugs": {
-    "url": "Kurento/kurento-client-filters-js/issues",
-    "email": "info@kurento.com"
+    "email": "kurento@googlegroups.com"
   },
   "keywords": [
     "API",
@@ -26,4 +25,5 @@
     "inherits": "^2.0.1",
     "kurento-client-core": "Kurento/kurento-client-core-js#develop",
     "kurento-client-elements": "Kurento/kurento-client-elements-js#develop"
-  }}
+  }
+}
