@@ -22,8 +22,7 @@
     "WebRTC"
   ],
   "dependencies": {
-    "inherits": "^2.0.1",
-    "kurento-client-core": "Kurento/kurento-client-core-js#develop",
-    "kurento-client-elements": "Kurento/kurento-client-elements-js#develop"
+    "checktype": "^0.0.4",
+    "inherits": "^2.0.1"
   }
 }
