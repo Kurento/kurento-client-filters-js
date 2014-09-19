@@ -1,24 +1,22 @@
 {
   "name": "kurento-client-filters",
   "description": "Filter implementations for kurento media server",
-  "homepage": "http://www.kurento.com",
   "main": "dist/kurento-client-filters.js",
-  "authors": [
-    "Kurento <info@kurento.com> (http://kurento.org)"
-  ],
-  "license": "LGPL",
-  "repository": {
-    "type": "git",
-    "url": "Kurento/kurento-client-filters-js"
-  },
-  "keywords": [
-    "API",
-    "Kurento",
-    "WebRTC"
-  ],
   "ignore": [
     "doc/",
     "lib/",
     "package.json"
-  ]
+  ],
+  "keywords": [
+    "Kurento"
+  ],
+  "license": "LGPL",
+  "homepage": "http://www.kurento.com",
+  "authors": [
+    "Kurento <info@kurento.com> (http://kurento.org)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "Kurento/kurento-client-filters-js"
+  }
 }
