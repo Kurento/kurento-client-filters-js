@@ -10,13 +10,14 @@
     "type": "git",
     "url": "Kurento/kurento-client-filters-js"
   },
-  "scripts": {
-    "prepublish": "grunt"
-  },
   "dependencies": {
-    "inherits": "^2.0.1"
+    "es6-promise": "^2.0.0",
+    "inherits": "^2.0.1",
+    "promisecallback": "^0.0.2"
   },
   "devDependencies": {
+    "kurento-client-core": "Kurento/kurento-client-core-js#develop",
+    "kurento-client-elements": "Kurento/kurento-client-elements-js#develop",
     "bower": "~1.3.12",
     "grunt": "~0.4.5",
     "grunt-browserify": "^3.1.0",
@@ -26,7 +27,6 @@
     "grunt-npm2bower-sync": "^0.4.0",
     "grunt-path-check": "^0.9.3",
     "grunt-shell": "^1.1.1",
-    "kurento-client": "^5.0.0",
     "minifyify": "^4.4.0"
   },
   "license": "LGPL",
