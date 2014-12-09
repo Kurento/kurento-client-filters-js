@@ -13,11 +13,6 @@
   "scripts": {
     "prepublish": "node scripts/prepublish"
   },
-  "dependencies": {
-    "es6-promise": "^2.0.0",
-    "inherits": "^2.0.1",
-    "promisecallback": "^0.0.2"
-  },
   "devDependencies": {
     "kurento-client-core": "Kurento/kurento-client-core-js#develop",
     "kurento-client-elements": "Kurento/kurento-client-elements-js#develop",
