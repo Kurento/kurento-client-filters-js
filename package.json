@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "kurento-client-core": "Kurento/kurento-client-core-js#develop",
-    "kurento-client-elements": "Kurento/kurento-client-elements-js#develop",
+    "kurento-client-elements": "5.1.0",
     "grunt-contrib-clean": "~0.6.0",
     "grunt-path-check": "^0.9.3",
     "grunt-shell": "^1.1.1"
