@@ -14,7 +14,7 @@
     "prepublish": "node scripts/prepublish"
   },
   "devDependencies": {
-    "kurento-client-core": "Kurento/kurento-client-core-js#develop",
+    "kurento-client-core": "Kurento/kurento-client-core-js#release-5.1",
     "kurento-client-elements": "Kurento/kurento-client-elements-js#release-5.1",
     "grunt-contrib-clean": "~0.6.0",
     "grunt-path-check": "^0.9.3",
