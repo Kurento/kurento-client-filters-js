@@ -35,7 +35,7 @@
         "nodeName": "kurento-client-filters",
         "npmDescription": "Filter implementations for kurento media server",
         "npmGit": "Kurento/kurento-client-filters-js",
-        "npmVersion": "Kurento/kurento-client-filters-js#develop"
+        "npmVersion": "Kurento/kurento-client-filters-js#release-5.1"
       }
     },
     "implementation": {
