@@ -45,6 +45,33 @@
   },
   "remoteClasses": [
     {
+      "name": "GStreamerFilter",
+      "doc": "This is a generic filter interface, that creates GStreamer filters in the media server.",
+      "extends": "Filter",
+      "constructor": {
+        "params": [
+          {
+            "name": "mediaPipeline",
+            "doc": "the :rom:cls:`MediaPipeline` to which the filter belongs",
+            "type": "MediaPipeline"
+          },
+          {
+            "name": "command",
+            "doc": "command that would be used to instantiate the filter, as in `gst-launch <http://rpm.pbone.net/index.php3/stat/45/idpl/19531544/numer/1/nazwa/gst-launch-1.0>`__",
+            "type": "String"
+          },
+          {
+            "name": "filterType",
+            "doc": "Filter type that define if the filter is set as audio, video or autodetect",
+            "type": "FilterType",
+            "optional": true,
+            "defaultValue": "AUTODETECT"
+          }
+        ],
+        "doc": "Create a :rom:cls:`GStreamerFilter`"
+      }
+    },
+    {
       "name": "FaceOverlayFilter",
       "doc": "FaceOverlayFilter interface. This type of :rom:cls:`Filter` detects faces in a video feed. The face is then overlaid with an image.",
       "extends": "Filter",
@@ -98,39 +125,6 @@
       ]
     },
     {
-      "name": "GStreamerFilter",
-      "doc": "This is a generic filter interface, that creates GStreamer filters in the media server.",
-      "extends": "Filter",
-      "constructor": {
-        "params": [
-          {
-            "name": "mediaPipeline",
-            "doc": "the :rom:cls:`MediaPipeline` to which the filter belongs",
-            "type": "MediaPipeline"
-          },
-          {
-            "name": "command",
-            "doc": "command that would be used to instantiate the filter, as in `gst-launch <http://rpm.pbone.net/index.php3/stat/45/idpl/19531544/numer/1/nazwa/gst-launch-1.0>`__",
-            "type": "String"
-          },
-          {
-            "name": "filterType",
-            "doc": "Filter type that define if the filter is set as audio, video or autodetect",
-            "type": "FilterType",
-            "optional": true,
-            "defaultValue": "AUTODETECT"
-          }
-        ],
-        "doc": "Create a :rom:cls:`GStreamerFilter`"
-      }
-    },
-    {
-      "name": "OpenCVFilter",
-      "doc": "Generic OpenCV Filter",
-      "abstract": true,
-      "extends": "Filter"
-    },
-    {
       "name": "ZBarFilter",
       "doc": "This filter detects :term:`QR` codes in a video feed. When a code is found, the filter raises a :rom:evnt:`CodeFound` event.",
       "extends": "Filter",
@@ -147,6 +141,12 @@
       "events": [
         "CodeFound"
       ]
+    },
+    {
+      "name": "OpenCVFilter",
+      "doc": "Generic OpenCV Filter",
+      "abstract": true,
+      "extends": "Filter"
     }
   ],
   "complexTypes": [],
