@@ -45,24 +45,6 @@
   },
   "remoteClasses": [
     {
-      "name": "ZBarFilter",
-      "doc": "This filter detects :term:`QR` codes in a video feed. When a code is found, the filter raises a :rom:evnt:`CodeFound` event.",
-      "extends": "Filter",
-      "constructor": {
-        "params": [
-          {
-            "name": "mediaPipeline",
-            "doc": "the :rom:cls:`MediaPipeline` to which the filter belongs",
-            "type": "MediaPipeline"
-          }
-        ],
-        "doc": "Builder for the :rom:cls:`ZBarFilter`."
-      },
-      "events": [
-        "CodeFound"
-      ]
-    },
-    {
       "name": "GStreamerFilter",
       "doc": "This is a generic filter interface, that creates GStreamer filters in the media server.",
       "extends": "Filter",
@@ -140,6 +122,24 @@
           "name": "setOverlayedImage",
           "doc": "Sets the image to use as overlay on the detected faces."
         }
+      ]
+    },
+    {
+      "name": "ZBarFilter",
+      "doc": "This filter detects :term:`QR` codes in a video feed. When a code is found, the filter raises a :rom:evnt:`CodeFound` event.",
+      "extends": "Filter",
+      "constructor": {
+        "params": [
+          {
+            "name": "mediaPipeline",
+            "doc": "the :rom:cls:`MediaPipeline` to which the filter belongs",
+            "type": "MediaPipeline"
+          }
+        ],
+        "doc": "Builder for the :rom:cls:`ZBarFilter`."
+      },
+      "events": [
+        "CodeFound"
       ]
     },
     {
