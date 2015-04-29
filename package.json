@@ -18,7 +18,7 @@
     "kurento-client-elements": "Kurento/kurento-client-elements-js",
     "grunt-contrib-clean": "~0.6.0",
     "grunt-path-check": "^0.9.3",
-    "grunt-shell": "^1.1.1"
+    "grunt-shell": "^1.1.2"
   },
   "license": "LGPL",
   "homepage": "http://www.kurento.com",
