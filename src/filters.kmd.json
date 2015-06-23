@@ -122,7 +122,15 @@
           }
         ],
         "doc": "Create a :rom:cls:`GStreamerFilter`"
-      }
+      },
+      "properties": [
+        {
+          "name": "command",
+          "doc": "GStreamer command.",
+          "type": "String",
+          "readOnly": true
+        }
+      ]
     },
     {
       "name": "OpenCVFilter",
