@@ -1,6 +1,6 @@
 {
   "name": "filters",
-  "version": "6.6.1-dev",
+  "version": "6.6.1",
   "kurentoVersion": "^6.1.0",
   "imports": [
     {
@@ -21,7 +21,7 @@
       "java": {
         "mavenGroupId": "org.kurento",
         "mavenArtifactId": "kms-api-filters",
-        "mavenVersion": "6.6.1-SNAPSHOT"
+        "mavenVersion": "6.6.1"
       }
     },
     "api": {
@@ -29,13 +29,13 @@
         "packageName": "org.kurento.client",
         "mavenGroupId": "org.kurento",
         "mavenArtifactId": "kurento-client",
-        "mavenVersion": "6.6.1-SNAPSHOT"
+        "mavenVersion": "6.6.1"
       },
       "js": {
         "nodeName": "kurento-client-filters",
         "npmDescription": "Filter implementations for kurento media server",
         "npmGit": "Kurento/kurento-client-filters-js",
-        "npmVersion": "Kurento/kurento-client-filters-js"
+        "npmVersion": "6.6.1"
       }
     },
     "implementation": {
