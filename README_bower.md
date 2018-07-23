@@ -13,7 +13,7 @@ kurento-client-filters-bower
 This repository host the auto-generated JavaScript client for [Kurento]
 module "filters" to be published in [Bower].
 
-Module "filters" description: Filter implementations for kurento media server
+Module "filters" description: JavaScript Client API for Kurento Media Server
 
 What is Kurento
 ---------------

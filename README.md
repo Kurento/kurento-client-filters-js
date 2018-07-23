@@ -12,7 +12,7 @@ kurento-client-filters-js
 
 This repository host the auto-generated JavaScript client for [Kurento] module "filters".
 
-Module "filters" description: Filter implementations for kurento media server
+Module "filters" description: JavaScript Client API for Kurento Media Server
 
 What is Kurento
 ---------------

@@ -1,7 +1,7 @@
 {
   "name": "kurento-client-filters",
   "version": "6.7.2-dev",
-  "description": "Filter implementations for kurento media server",
+  "description": "JavaScript Client API for Kurento Media Server",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
