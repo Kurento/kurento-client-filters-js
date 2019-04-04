@@ -1,6 +1,6 @@
 {
   "name": "filters",
-  "version": "6.9.1-dev",
+  "version": "6.10.0",
   "kurentoVersion": "^6.7.0",
   "imports": [
     {
@@ -21,7 +21,7 @@
       "java": {
         "mavenGroupId": "org.kurento",
         "mavenArtifactId": "kms-api-filters",
-        "mavenVersion": "6.9.1-SNAPSHOT"
+        "mavenVersion": "6.10.0"
       }
     },
     "api": {
@@ -29,13 +29,13 @@
         "packageName": "org.kurento.client",
         "mavenGroupId": "org.kurento",
         "mavenArtifactId": "kurento-client",
-        "mavenVersion": "6.9.1-SNAPSHOT"
+        "mavenVersion": "6.10.0"
       },
       "js": {
         "nodeName": "kurento-client-filters",
         "npmDescription": "JavaScript Client API for Kurento Media Server",
         "npmGit": "Kurento/kurento-client-filters-js",
-        "npmVersion": "Kurento/kurento-client-filters-js"
+        "npmVersion": "6.10.0"
       }
     },
     "implementation": {
@@ -224,12 +224,12 @@
             },
             {
               "name": "offsetXPercent",
-              "doc": "the offset applied to the image, from the X coordinate of the detected face upper right corner. A positive value indicates right displacement, while a negative value moves the overlaid image to the left. This offset is specified as a percentage of the face width.\n\nFor example, to cover the detected face with the overlaid image, the parameter has to be ``0.0``. Values of ``1.0`` or ``-1.0`` indicate that the image upper right corner will be at the face??s X coord, +- the face??s width.\n\n.. note::\n\n    The parameter name is misleading, the value is not a percent but a ratio",
+              "doc": "the offset applied to the image, from the X coordinate of the detected face upper right corner. A positive value indicates right displacement, while a negative value moves the overlaid image to the left. This offset is specified as a percentage of the face width.\n\nFor example, to cover the detected face with the overlaid image, the parameter has to be ``0.0``. Values of ``1.0`` or ``-1.0`` indicate that the image upper right corner will be at the face´s X coord, +- the face´s width.\n\n.. note::\n\n    The parameter name is misleading, the value is not a percent but a ratio",
               "type": "float"
             },
             {
               "name": "offsetYPercent",
-              "doc": "the offset applied to the image, from the Y coordinate of the detected face upper right corner. A positive value indicates up displacement, while a negative value moves the overlaid image down. This offset is specified as a percentage of the face width.\n\nFor example, to cover the detected face with the overlaid image, the parameter has to be ``0.0``. Values of ``1.0`` or ``-1.0`` indicate that the image upper right corner will be at the face??s Y coord, +- the face??s width.\n\n.. note::\n\n    The parameter name is misleading, the value is not a percent but a ratio",
+              "doc": "the offset applied to the image, from the Y coordinate of the detected face upper right corner. A positive value indicates up displacement, while a negative value moves the overlaid image down. This offset is specified as a percentage of the face width.\n\nFor example, to cover the detected face with the overlaid image, the parameter has to be ``0.0``. Values of ``1.0`` or ``-1.0`` indicate that the image upper right corner will be at the face´s Y coord, +- the face´s width.\n\n.. note::\n\n    The parameter name is misleading, the value is not a percent but a ratio",
               "type": "float"
             },
             {
