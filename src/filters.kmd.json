@@ -26,9 +26,9 @@
     },
     "api": {
       "java": {
+        "packageName": "org.kurento.client",
         "mavenGroupId": "org.kurento",
         "mavenArtifactId": "kms-api-filters",
-        "packageName": "org.kurento.module.filters",
         "mavenVersion": "6.18.0-SNAPSHOT"
       },
       "js": {
