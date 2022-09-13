@@ -110,7 +110,7 @@
           },
           {
             "name": "command",
-            "doc": "String used to instantiate the GStreamer element, as in `gst-launch <https://gstreamer.freedesktop.org/documentation/tools/gst-launch.html>`__.",
+            "doc": "String used to instantiate the GStreamer element, as in gst-launch (https://gstreamer.freedesktop.org/documentation/tools/gst-launch.html).",
             "type": "String"
           },
           {
@@ -126,7 +126,7 @@
       "properties": [
         {
           "name": "command",
-          "doc": "String used to instantiate the GStreamer element, as in `gst-launch <https://gstreamer.freedesktop.org/documentation/tools/gst-launch.html>`__.",
+          "doc": "String used to instantiate the GStreamer element, as in gst-launch (https://gstreamer.freedesktop.org/documentation/tools/gst-launch.html).",
           "type": "String",
           "readOnly": true
         }
@@ -232,7 +232,7 @@
     },
     {
       "name": "ZBarFilter",
-      "doc": "This filter detects :term:`QR` codes in a video feed. When a code is found, the filter raises a :rom:evnt:`CodeFound` event.",
+      "doc": "This filter detects QR codes in a video feed. When a code is found, the filter raises a :rom:evnt:`CodeFound` event.",
       "extends": "Filter",
       "constructor": {
         "params": [
@@ -255,12 +255,12 @@
       "properties": [
         {
           "name": "codeType",
-          "doc": "type of :term:`QR` code found",
+          "doc": "type of QR code found",
           "type": "String"
         },
         {
           "name": "value",
-          "doc": "value contained in the :term:`QR` code",
+          "doc": "value contained in the QR code",
           "type": "String"
         }
       ],
