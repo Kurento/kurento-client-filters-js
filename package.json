@@ -1,10 +1,10 @@
 {
   "name": "kurento-client-filters",
-  "version": "6.18.1-dev",
+  "version": "7.0.0-dev",
   "description": "JavaScript Client API for Kurento Media Server",
   "repository": {
     "type": "git",
-    "url": "https://github.com/https://github.com/Kurento/kurento-client-filters-js.git.git"
+    "url": "https://github.com/Kurento/kurento-client-filters-js.git"
   },
   "keywords": [
     "Kurento",
@@ -16,6 +16,6 @@
   "homepage": "https://kurento.openvidu.io/",
   "author": "Kurento <kurento@openvidu.io> (https://kurento.openvidu.io/)",
   "bugs": {
-    "email": "kurento@googlegroups.com"
+    "email": "kurento@openvidu.io"
   }
 }

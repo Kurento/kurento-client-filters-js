@@ -1,18 +1,18 @@
 {
   "name": "filters",
-  "version": "6.18.1-dev",
-  "kurentoVersion": "^6.18.1-dev",
+  "version": "7.0.0-dev",
+  "kurentoVersion": "^7.0.0-dev",
   "imports": [
     {
       "name": "core",
-      "version": "^6.18.1-dev",
-      "mavenVersion": "[6.18.1-SNAPSHOT,7.0.0-SNAPSHOT)",
+      "version": "^7.0.0-dev",
+      "mavenVersion": "[7.0.0-SNAPSHOT,8.0.0-SNAPSHOT)",
       "npmVersion": "https://github.com/Kurento/kurento-client-core-js.git"
     },
     {
       "name": "elements",
-      "version": "^6.18.1-dev",
-      "mavenVersion": "[6.18.1-SNAPSHOT,7.0.0-SNAPSHOT)",
+      "version": "^7.0.0-dev",
+      "mavenVersion": "[7.0.0-SNAPSHOT,8.0.0-SNAPSHOT)",
       "npmVersion": "https://github.com/Kurento/kurento-client-elements-js.git"
     }
   ],
@@ -21,7 +21,7 @@
       "java": {
         "mavenGroupId": "org.kurento",
         "mavenArtifactId": "kms-api-filters",
-        "mavenVersion": "6.18.1-SNAPSHOT"
+        "mavenVersion": "7.0.0-SNAPSHOT"
       }
     },
     "api": {
@@ -29,7 +29,7 @@
         "packageName": "org.kurento.client",
         "mavenGroupId": "org.kurento",
         "mavenArtifactId": "kurento-client",
-        "mavenVersion": "6.18.1-SNAPSHOT"
+        "mavenVersion": "7.0.0-SNAPSHOT"
       },
       "js": {
         "nodeName": "kurento-client-filters",
@@ -99,7 +99,7 @@
     },
     {
       "name": "GStreamerFilter",
-      "doc": "A generic filter that allows injecting a single GStreamer element.\n<p>\n  The current implementation of GStreamerFilter only allows single elements to\n  be injected; one cannot indicate more than one at the same time; use several\n  GStreamerFilters if you need to inject more than one element into the\n  pipeline.\n</p>\n<p>\n  Note that usage of some popular GStreamer elements requires installation of\n  additional packages. For example, overlay elements such as\n  <em>timeoverlay</em> or <em>textoverlay</em> require installation of the\n  <strong>gstreamer1.5-x</strong> package, which will also install the\n  <em>Pango</em> rendering library.\n</p>\n      ",
+      "doc": "A generic filter that allows injecting a single GStreamer element.\n<p>\n  The current implementation of GStreamerFilter only allows single elements to\n  be injected; one cannot indicate more than one at the same time; use several\n  GStreamerFilters if you need to inject more than one element into the\n  pipeline.\n</p>\n<p>\n  Note that usage of some popular GStreamer elements requires installation of\n  additional packages. For example, overlay elements such as\n  <em>timeoverlay</em> or <em>textoverlay</em> require installation of the\n  <strong>gstreamer1.0-x</strong> package, which will also install the\n  <em>Pango</em> rendering library.\n</p>\n      ",
       "extends": "Filter",
       "constructor": {
         "params": [
